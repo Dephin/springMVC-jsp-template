@@ -14,7 +14,7 @@
     <div class="customers">
         <div class="row text-center">
             <div class="col-sm-12">
-                <h2>Say ${msg}</h2>
+                <h2>springMVC-jsp template</h2>
             </div>
         </div>
     </div>

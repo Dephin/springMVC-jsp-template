@@ -8,11 +8,11 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class HelloController {
-    @RequestMapping(value = "/hello")
+    @RequestMapping(value = "/index")
     public ModelAndView hello(HttpServletRequest request) {
         ModelAndView mv = new ModelAndView();
         mv.addObject("msg", "Hello!");
-        mv.setViewName("hello");
+        mv.setViewName("index");
         return mv;
     }
 }
